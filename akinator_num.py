@@ -36,5 +36,3 @@ while not adivinado:
   else:
     print("X, respuesta no válida. Por favor usa '>', '<' o '='.")
     intentos_totales -=1
-
-    
