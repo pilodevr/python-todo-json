@@ -12,7 +12,7 @@ input("Cuando estés listo, presiona Enter para empezar...")
 
 inferior = 1
 superior = 100
-adivinado = false
+adivinado = False
 intentos_totales = 0
 
 while not adivinado:
