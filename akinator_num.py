@@ -15,7 +15,12 @@ superior = 100
 adivinado = False
 intentos_totales = 0
 
+
 while not adivinado:
+  if inferior > superior:
+    print("\n¡Un momento! Eso es matemáticamente imposible.")
+    print("Me dijiste que era mayor y menor a la vez en algún punto. ¡No hagas trampa!")
+    break
   intento = (inferior + superior) // 2
   intentos_totales += 1
   print(f"\n¿Tu numero es el {intento}?")
